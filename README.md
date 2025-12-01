@@ -50,9 +50,9 @@ eureka.client.fetch-registry=false
 
 ---
 
-## 3️⃣ `service-voiture/README.md`
+##  service-voiture
 
-```markdown
+
 # SERVICE-VOITURE
 
 ## 1. Rôle du projet
@@ -73,15 +73,15 @@ Spécificités :
 
 ```properties
 spring.application.name=SERVICE-VOITURE
-
+```
 
 
 
 ---
 
-## 4️⃣ `GateWay/README.md`
+## GateWay
 
-```markdown
+
 # API Gateway (Spring Cloud Gateway)
 
 ## 1. Rôle du projet
@@ -132,6 +132,7 @@ server.port=8888
 ```
 
 eureka.client.service-url.defaultZone=http://localhost:8761/eureka
+
 
 
 
