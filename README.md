@@ -51,6 +51,11 @@ eureka.client.fetch-registry=false
 
 
 
+
+<img width="1919" height="871" alt="image" src="https://github.com/user-attachments/assets/4c6c9e40-5eb7-45e9-b2bb-2e76cb3b6301" />
+
+
+
 ---
 
 
@@ -170,6 +175,7 @@ server.port=8888
 ```
 
 eureka.client.service-url.defaultZone=http://localhost:8761/eureka
+
 
 
 
