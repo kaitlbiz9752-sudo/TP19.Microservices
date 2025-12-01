@@ -52,10 +52,10 @@ eureka.client.fetch-registry=false
 
 ---
 
-## Client
 
 
-# SERVICE-CLIENT
+
+## SERVICE-CLIENT
 
 ## 1. Rôle du projet
 
@@ -150,6 +150,7 @@ server.port=8888
 ```
 
 eureka.client.service-url.defaultZone=http://localhost:8761/eureka
+
 
 
 
