@@ -41,6 +41,7 @@ Dans `application.properties` (ou `application.yml`) :
 ```properties
 spring.application.name=EUREKA-SERVER
 server.port=8761
+```
 
 eureka.client.register-with-eureka=false
 eureka.client.fetch-registry=false
@@ -128,7 +129,9 @@ Exemple d’`application.properties` :
 ```properties
 spring.application.name=GATEWAY
 server.port=8888
+```
 
 eureka.client.service-url.defaultZone=http://localhost:8761/eureka
+
 
 
