@@ -8,7 +8,7 @@ Tous les microservices (SERVICE-CLIENT, SERVICE-VOITURE, GateWay) s’y **enregi
 
 ---
 
-## 2. Contexte et architecture (résumé)
+## 2. Contexte et architecture 
 
 - Architecture microservices basée sur Spring Boot / Spring Cloud.
 - Chaque service a son propre domaine fonctionnel et sa propre base (H2 en mémoire ici).
@@ -49,6 +49,24 @@ eureka.client.fetch-registry=false
 
 
 ---
+
+---
+
+## Client
+
+
+# SERVICE-CLIENT
+
+## 1. Rôle du projet
+
+`SERVICE-CLIENT` est un microservice Spring Boot qui expose un **CRUD sur les clients** (id, nom, âge, etc.), avec une base **H2 en mémoire**.
+
+Il est enregistré dans Eureka sous le nom logique :
+
+```properties
+spring.application.name=SERVICE-CLIENT
+```
+
 
 ##  service-voiture
 
@@ -132,6 +150,7 @@ server.port=8888
 ```
 
 eureka.client.service-url.defaultZone=http://localhost:8761/eureka
+
 
 
 
