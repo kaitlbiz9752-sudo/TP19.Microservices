@@ -47,6 +47,9 @@ eureka.client.register-with-eureka=false
 eureka.client.fetch-registry=false
 
 
+<img width="597" height="890" alt="image" src="https://github.com/user-attachments/assets/5d9e1bca-0cbc-4efe-abc3-a1366b301550" />
+
+
 
 ---
 
@@ -66,6 +69,13 @@ Il est enregistré dans Eureka sous le nom logique :
 ```properties
 spring.application.name=SERVICE-CLIENT
 ```
+
+<img width="608" height="933" alt="image" src="https://github.com/user-attachments/assets/dde47556-5faa-473e-943c-ca75547ffba5" />
+
+
+
+<img width="416" height="621" alt="image" src="https://github.com/user-attachments/assets/9e138538-fd9e-4d7b-92f3-677e0cb307f5" />
+
 
 
 ##  service-voiture
@@ -96,6 +106,16 @@ spring.application.name=SERVICE-VOITURE
 
 
 ---
+
+<img width="509" height="967" alt="image" src="https://github.com/user-attachments/assets/2ac92961-302b-4d1d-a2a3-a1848bc135bb" />
+
+
+
+<img width="539" height="966" alt="image" src="https://github.com/user-attachments/assets/f06563b1-94bb-47c1-9aa0-7ff5d8b4cf18" />
+
+
+
+
 
 ## GateWay
 
@@ -150,6 +170,7 @@ server.port=8888
 ```
 
 eureka.client.service-url.defaultZone=http://localhost:8761/eureka
+
 
 
 
